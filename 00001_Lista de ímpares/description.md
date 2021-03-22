@@ -1,0 +1,1 @@
+Implemente a função `impares` que, ao receber uma lista de números inteiros, retorna apenas os ímpares.
