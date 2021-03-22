@@ -1,1 +1,1 @@
-Questões de Python
+Questões sobre listas em Python
