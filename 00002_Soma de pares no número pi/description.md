@@ -1,10 +1,13 @@
-No contexto desta questão, definimos a variável `pi`, que é uma _string_ representando o número pi:
+No contexto desta questão, definimos a variável `pi`, que contém uma representação em _string_ do número pi:
 
 ```python
-pi = "3.141592..."
+pi = '3.1415926...'
 ```
 
+Sua tarefa é implementar a função `soma_pares_em_pi`. Ela recebe como argumento um número inteiro _n_ **positivo** e retorna a soma dos _n_ primeiros digitos **pares** de pi.
 
-Implemente a função `soma_pares_em_pi` que recebe um número inteiro _n_ como argumento e retorna a soma dos _n_ primeiros digitos de pi.
+Exemplos:
 
-obs.: o número pi que disponibilizamos na variável `pi` permite que você execute a função `soma_pares_em_pi` com _n_ igual ou menor que 1251. Essa informação não é relevante para sua implementação.
+* `soma_pares_em_pi(1)` deve ser retornar 4 (veja `pi` acima).
+* `soma_pares_em_pi(2)` deve ser retornar 6.
+* `soma_pares_em_pi(3)` deve ser retornar 12.
